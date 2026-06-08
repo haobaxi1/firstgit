@@ -1,0 +1,57 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and runtime output
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency folders
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+
+# Build / cache output
+dist/
+build/
+out/
+target/
+coverage/
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Package manager cache
+.npm/
+.yarn/cache/
+.pnpm-store/
